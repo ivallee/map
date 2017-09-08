@@ -6,11 +6,9 @@ var input = [
 var result = input.map(function(obj) {
   var xSquared = Math.pow(obj.x, 2);
   var ySquared = Math.pow(obj.y, 2);
-  return obj;
+  return Math.sqrt(xSquared + ySquared);
 });
 
-// console.log(result[0] === 5);
-// console.log(result[1] === 13);
-// console.log(result[2] === 17);
-
-console.log(result);
+console.log(result[0] === 5);
+console.log(result[1] === 13);
+console.log(result[2] === 17);
