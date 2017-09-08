@@ -3,6 +3,7 @@ var input = [
   { x: 12, y: 5 },
   { x: 8, y: 15 }
 ];
+
 var result = input.map(function(obj){
   var squaredX = Math.pow(obj.x, 2);
   var squaredY = Math.pow(obj.y, 2);
